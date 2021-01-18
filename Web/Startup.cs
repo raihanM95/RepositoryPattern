@@ -26,7 +26,9 @@ namespace Web
         {
             services.AddControllersWithViews();
 
+            //Dependency Injection
             services.ConfigureSqlContext(Configuration);
+            services.ConfigureRepositoryWrapper();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

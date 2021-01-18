@@ -1,4 +1,6 @@
-﻿using Infrastructure.Persistence.Contexts;
+﻿using Application;
+using Infrastructure.Persistence.Contexts;
+using Infrastructure.Service;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,6 +19,9 @@ namespace Web.Extensions
             services.AddDbContext<RepositoryContext>(option => option.UseSqlServer(connectionString));
         }
 
-
+        public static void ConfigureRepositoryWrapper(this IServiceCollection services)
+        {
+            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+        }
     }
 }
