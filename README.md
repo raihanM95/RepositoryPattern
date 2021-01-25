@@ -22,7 +22,7 @@ An Implementation of Repository Pattern with ASP.NET Core 3.1 Web MVC. With this
 
 Check out the [GitHub](https://github.com/raihanM95/RepositoryPattern) to learn more about this Open Source Project.
 
-# Getting Started
+## Getting Started
 
 ### Download the Extension
 Make sure Visual Studio 2019 is installed on your machine with the latest SDK.
@@ -40,26 +40,26 @@ Next, open up Web/appsettings.json to change the connection strings and Run thes
 
 `update-database`
 
-# Technologies
+## Technologies
 
 - ASP.NET Core 3.1 Web
 - .NET Core 3.1 Libraries
 
-# Prerequisites
+## Prerequisites
 
 - Visual Studio 2019 Community and above
 - .NET Core 3.1 SDK and above
 - Basic Understanding of Architectures and Clean Code Principles
 
-# About the Author
+## About the Author
 
-# Raihan Mahmud
+### Raihan Mahmud
 
 - Facebook Page - [Raihan Mahmud RAM](https://www.facebook.com/raihanmahmudofficial)
 - Facebook - [Raihan Mahmud RAM](https://www.facebook.com/raihanM95)
 - Twitter - [Raihan Mahmud RAM](https://twitter.com/raihanM95)
 - Linkedin - [Raihan Mahmud RAM](https://www.linkedin.com/in/raihanM95)
 
-# Licensing
+## Licensing
 
 raihanM95/RepositoryPattern Project is licensed with the [MIT License](https://github.com/raihanM95/RepositoryPattern/blob/main/LICENSE).
