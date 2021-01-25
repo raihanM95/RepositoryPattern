@@ -14,19 +14,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{3DF67480-4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{813FAFD8-E77A-44D0-A65C-392322158E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{10083092-E01B-43B6-9462-A3736829D8AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{10083092-E01B-43B6-9462-A3736829D8AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{3D0FA752-D784-4F72-9F85-66822744BC2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{3D0FA752-D784-4F72-9F85-66822744BC2F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{EEA30553-3C66-429B-9081-C198A75C7681}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Persistence", "Infrastructure.Persistence\Infrastructure.Persistence.csproj", "{4B0CC001-182B-42BE-BF2F-9D4B1B95CCE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Persistence", "Infrastructure.Persistence\Infrastructure.Persistence.csproj", "{4B0CC001-182B-42BE-BF2F-9D4B1B95CCE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Service", "Infrastructure.Service\Infrastructure.Service.csproj", "{2D6B65B7-B777-4A34-A1D6-B1053DF61554}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Service", "Infrastructure.Service\Infrastructure.Service.csproj", "{2D6B65B7-B777-4A34-A1D6-B1053DF61554}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5BEE3FC1-BB0C-4A08-8661-CE7A44DD83EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{70E46508-61A5-402B-8C2D-E9E06C33C033}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{70E46508-61A5-402B-8C2D-E9E06C33C033}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
